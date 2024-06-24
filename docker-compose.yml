@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  modbus-server:
+    build: .
+    ports:
+      - "5020:5020"  # Exponieren des Modbus TCP Ports
+    restart: always
