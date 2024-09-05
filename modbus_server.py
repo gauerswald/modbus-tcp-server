@@ -17,7 +17,7 @@ def run_modbus_server():
     identity.ModelName = 'Modbus Server'
     identity.MajorMinorRevision = '1.0'
 
-    # Starten des Servers
+    # Starten des Servers Test
     StartTcpServer(context, identity=identity, address=("0.0.0.0", 5020))
 
 if __name__ == "__main__":
